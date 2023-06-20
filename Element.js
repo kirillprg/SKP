@@ -34,7 +34,7 @@ class Element {
                                   */
 
 
-
+//p
 
     getName(){
       return this.name;
@@ -44,23 +44,19 @@ class Element {
 
     chooseTitle(){
       
-      switch(this.type){
-       
+      switch(this.type){       
         case "motor" :
-        this.callTitle =  '\"SSW_MOTOR\", \"SSW_MOTOR_DB\"';
-        break;
+          this.callTitle =  '\"SSW_MOTOR\", \"SSW_MOTOR_DB\"';
+          break;
         case "ventil" :
-        this.callTitle =  '\"SSW_VENTIL\", \"SSW_VENTIL_DB\"';
-        break;
+          this.callTitle =  '\"SSW_VENTIL\", \"SSW_VENTIL_DB\"';
+          break;
         case "sensor" :
-        this.callTitle =  '\"SSW_LS_OK\", \"SSW_LS_OK_DB\"';
-        break;
+          this.callTitle =  '\"SSW_LS_OK\", \"SSW_LS_OK_DB\"';
+          break;
         default:
-        this.callTitle = "lame title, dolbaeb"
-        break;
-
-        
-        
+          this.callTitle = "lame title, dolbaeb"
+          break;
       }
 
      
