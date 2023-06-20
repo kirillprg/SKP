@@ -1,0 +1,11 @@
+vent1,ventil,q1.0,i0.0
+vent2,ventil,q1.1,i0.1
+vent3,ventil,q1.2,i0.2
+mot1,motor,q1.3,i0.3
+moto2,motor,q1.4,i0.4
+senz1,sensor,,i0.5
+senz2,sensor,,i0.6
+senz3,sensor,,i0.7
+senz4,sensor,,i0.8
+senz5,sensor,,i0.9
+senz6,sensor,,i0.10
